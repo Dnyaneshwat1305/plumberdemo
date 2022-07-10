@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.Emergency_contact {
+    display: flex;
+    gap: 5px;
+}
+
+.Emergency_contact .span_em_services {
+    color: #FF5326;
+}
+
+.em_icon_contact_number {
+    display: flex;
+    gap: 5px;
+}
+
+.Emergency_contact {
+    font-size: 14px;
+}
+
+.em_icon_contact_number {
+    font-size: 19.5px;
+}
+
+.brand_contact_section {
+    display: flex;
+    flex-direction: column;
+    line-height: 3px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main_second {
+    display: flex;
+    gap: 15px;
+    align-items: center ;
+}
+
+.service_button {
+    border: 0;
+    padding: 11px 18px;
+    background: #FF5326;
+    border-radius: 5px;
+}
+
+.em_contact p {
+    margin: 8px;
+}
+
+.em_icon i {
+    color: #FF9933;
+}
+
+/* navigation section start from here */
+.navigation {
+    max-width: 100%;
+
+}
+
+.navigation ul {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.navigation li {
+    list-style: none;
+    display: block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* navigation section start from here */
+.navigation_section {
+    background: #FF9933;
+}
+
+.navigation ul li ul {
+    display: none;
+}
+
+.navigation ul li:hover ul {
+    display: block;
+    background: red;
+}
+
+.next_icon {
+    width: 6%;
+}
+
+.pre-icon {
+    width: 6%;
+}
+
+.slider_text_right {
+    margin: 206px;
+    left: 572px;
+    width: 40%;
+}
+
+.card {
+    width: 100%;
+    max-width: 372px;
+}
+
+.service_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card_images img {
+    max-width: 370px;
+}
+
+.service_card h3 {
+    font-size: 23px;
+    padding: 15px;
+}
+
+
+.service_card p {
+    padding: 15px;
+}
+
+.service_card a {
+    padding: 15px;
+    text-decoration: none;
+    color: #FFAB33;
+}
+
+.service_card i {
+    color: #FFAB33;
+}
+
+.service_section {
+    margin-top: 80px;
+    background: #F4F8F8;
+}
+
+.service_details {
+    padding: 25px;
+}
+
+.brand_service_from_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_details {
+    flex: 0 0 70%;
+}
+
+.form {
+    flex: 0 0 30%;
+    background-image: url("Assist/images/form-bg.jpg");
+    padding: 25px;
+}
+
+.form h1 {
+    font-size: 28px;
+}
+
+.form_input  {
+    height: 48px;
+    width: 309px;
+    outline: 0;
+    padding: 9px;
+    margin-bottom: 20px;
+}
+
+.from_submit_button {
+    padding: 8px 19px;
+    outline: none;
+    border: none;
+    background: #FF5326;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+
+.from_submit_button:hover {
+    background-color: #FF9933;
+}
+
+.company_service_button {
+    padding: 8px 27px;
+    border: 0;
+    background: #FF9933;
+    transition: 0.6s;
+}
+
+.company_service_button {
+    background-color: #FF5326;
+}
+
+.overlay_section {
+    x
+}
+
+    /* .input_messages {
+        height: 220px;
+        padding: 0;
+    } */
